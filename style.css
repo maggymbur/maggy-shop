@@ -1,0 +1,89 @@
+/*here i have describrd the margin and the paddling to both 0 so as to remove the automatic styling of of the page*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'roboto', sans-serif;
+}
+/*describing the whole navbar , the structure how it should look its color and page only nothing more*/
+.navbar{
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background : plum;
+    z-index: 9;
+}
+/* describing the nav that contains the log alone */
+.nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: st;
+}
+/*describing the search bar*/
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: left;
+
+    
+}
+.search{
+    width: 500px;
+    display: flex;
+}
+.searchbox{
+    width: 500px;
+    height: 40px;
+    padding: 10px 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid rebeccapurple;
+    text-transform: capitalize;
+    background: none;
+    color: wheat;
+    outline: none;
+    position: absolute;
+    top: 5px;
+    right: 0;
+  
+
+}
+.searchbar{
+    background: red;
+    text-transform: uppercase;
+    
+}
+nav ul{
+    
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+    position: absolute;
+    top: 90px;
+    right:600px;
+
+}
+nav li{
+    float: left;
+    display: flex;
+    justify-content: space-evenly;
+   
+  
+}
+nav a{
+    
+    color: black;
+    margin-left: 70px;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+
+
+
+    
+
