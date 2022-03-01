@@ -1,9 +1,10 @@
-/*here i have describrd the margin and the paddling to both 0 so as to remove the automatic styling of of the page*/
+/*here i have described the margin and the paddling to both 0 so as to remove the automatic styling of of the page*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box ;
     font-family: 'roboto', sans-serif;
+    
 }
 /*describing the whole navbar , the structure how it should look its color and page only nothing more*/
 .navbar{
@@ -19,7 +20,7 @@
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: st;
+    align-items: center;
 }
 /*describing the search bar*/
 .nav-items{
@@ -57,30 +58,42 @@
     
 }
 nav ul{
-    
+    float: left; 
     margin: 0;
     padding: 0%;
     list-style: none;
     position: absolute;
     top: 90px;
-    right:600px;
+    right:250px;
 
 }
 nav li{
     float: left;
     display: flex;
-    justify-content: space-evenly;
-   
+    
   
 }
 nav a{
     
     color: black;
-    margin-left: 70px;
+    margin-left: 50px;
     text-transform: uppercase;
     font-size: 20px;
 
 }
+nav a:hover{color: peru;}
+.cart{
+    float: right;
+    position: absolute;
+    top: 60px;
+    right: 60px; ;
+    
+}
+
+
+    
+
+
 
 
 
