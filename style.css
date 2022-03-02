@@ -89,6 +89,39 @@ nav a:hover{color: peru;}
     right: 60px; ;
     
 }
+.menu{
+    margin-left: 600px;
+    color: red;
+    
+}
+.special{
+    margin-left: 600px;
+    color: seagreen;
+}
+.chips{
+    margin-left: 600px;
+}
+.drinks{
+    margin-left: 800px;
+    color: tan;
+    
+}
+.dessert{
+    margin-left: 400px;
+    position: absolute;
+    top: 320px;
+    color: slateblue;
+}
+.table1{
+    margin-left: 800px;
+}
+.table2{
+    margin-left: 400px;
+    position: absolute;
+    top: 340px;
+
+    
+}
 
 
     
