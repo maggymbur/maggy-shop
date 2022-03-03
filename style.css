@@ -114,14 +114,51 @@ nav a:hover{color: peru;}
 }
 .table1{
     margin-left: 800px;
+   
+    
+
 }
 .table2{
     margin-left: 400px;
-    position: absolute;
-    top: 340px;
-
     
+    position: absolute;
+    top: 340px;    
 }
+.section
+{
+    background-color: coral;
+}
+#boxes {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  aside{
+    float: left;
+    height: 470px;
+    width: 23%;
+    padding: 0 10px;
+  }
+  
+  #column1 {
+    background-color: palevioletred;
+  }
+  
+  #column2 {
+    background-color: #a0e9ed;
+    width: 43%;
+  }
+  
+  #column3 {
+    background-color: #f497f1;
+  }
+  
+  h2 {
+    color: #000000;
+    text-align: left;
+  }
+
 
 
     
