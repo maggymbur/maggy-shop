@@ -89,44 +89,11 @@ nav a:hover{color: peru;}
     right: 60px; ;
     
 }
-.menu{
-    margin-left: 600px;
-    color: red;
-    
-}
-.special{
-    margin-left: 600px;
-    color: seagreen;
-}
-.chips{
-    margin-left: 600px;
-}
-.drinks{
-    margin-left: 800px;
-    color: tan;
-    
-}
-.dessert{
-    margin-left: 400px;
-    position: absolute;
-    top: 320px;
-    color: slateblue;
-}
-.table1{
-    margin-left: 800px;
-   
-    
 
-}
-.table2{
-    margin-left: 400px;
-    
-    position: absolute;
-    top: 340px;    
-}
 .section
 {
-    background-color: coral;
+    background-color: blue;
+    background-image: url(../maggy-shop/images/foodmenu.webp);
 }
 #boxes {
     content: "";
@@ -139,24 +106,35 @@ nav a:hover{color: peru;}
     height: 470px;
     width: 23%;
     padding: 0 10px;
+   
+
   }
   
   #column1 {
-    background-color: palevioletred;
+      background-color: none;
+      padding-bottom: 50px;
+      margin-right: 70px;
+    
   }
   
   #column2 {
-    background-color: #a0e9ed;
+   
     width: 43%;
   }
   
   #column3 {
-    background-color: #f497f1;
+    background-color: none;
   }
   
   h2 {
     color: #000000;
     text-align: left;
+  }
+  .back{
+      background-image: url(../maggy-shop/images/foodmenu.webp);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: contain;
   }
 
 

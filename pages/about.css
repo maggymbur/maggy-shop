@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'roboto', sans-serif;
+    
+}
+/*describing the whole navbar , the structure how it should look its color and page only nothing more*/
+.navbar{
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background : plum;
+    z-index: 9;
+}
+/* describing the nav that contains the log alone */
+.nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*describing the search bar*/
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: left;
+
+    
+}
+
+nav ul{
+    float: left; 
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+    position: absolute;
+    top: 90px;
+    right:250px;
+
+}
+nav li{
+    float: left;
+    display: flex;
+    
+  
+}
+nav a{
+    
+    color: black;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+nav a:hover{color: peru;}
+
+.about{
+    float: left;
+    position: absolute;
+    right: 50px;
+    top: 150px;
+    
+    
+    
+    
+}
+h1{color: blue; }
+h2{color: blue; }
+
