@@ -1,4 +1,3 @@
-/*here i have described the margin and the paddling to both 0 so as to remove the automatic styling of of the page*/
 *{
     margin: 0;
     padding: 0;
@@ -89,72 +88,3 @@ nav a:hover{color: peru;}
     right: 60px; ;
     
 }
-
-h1{color: blue; float: right; margin-right: 650px;}
-.burger{
-    position: absolute;
-    top: 100px;
-    right: 800px;
-}
-.chipskuku{
-    color: black;
-    position: absolute;
-    top: 350px;
-    right: 800px;
-}
-.friedchicken{
-    color: black;
-    position: absolute;
-    top: 650px;
-    right: 780px;
-}
-.pizza{
-    color: black;
-    position: absolute;
-    top: 950px ;
-    right: 800px;
-}
-.ugali{
-    color: black;
-    position: absolute;
-    top: 1170px ;
-    right: 800px;
-}
-.cocktails{
-    color: black;
-    position: absolute;
-    top: 100px;
-    right: 300px;
-}
-.coffee{
-    color: black;
-    position: absolute;
-    top: 350px;
-    right: 300px;
-}
-.fruitjuice{
-    color: black;
-    position: absolute;
-    top: 550px;
-    right: 400px;
-}
-.soda{
-    color: black;
-    position: absolute;
-    top: 900px ;
-    right:300px ;
-
-}
-.wine{
-    color: black;
-    position: absolute;
-    top: 1100px;
-    right: 300px;
-}
-
-
-
-
-
-    
-
