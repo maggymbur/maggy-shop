@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box ;
     font-family: 'roboto', sans-serif;
+   
     
 }
 /*describing the whole navbar , the structure how it should look its color and page only nothing more*/
@@ -13,6 +14,7 @@
     width: 100%;
     background : plum;
     z-index: 9;
+    
 }
 /* describing the nav that contains the log alone */
 .nav{
@@ -20,6 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  
 }
 /*describing the search bar*/
 .nav-items{
@@ -58,15 +61,30 @@ nav a{
 nav a:hover{color: peru;}
 
 .about{
+    
     float: left;
     position: absolute;
     right: 50px;
     top: 150px;
-    
-    
+    margin-left: 520px;
     
     
 }
 h1{color: blue; }
 h2{color: blue; }
+a{
+    margin-left: 50px;
+}
+h3{margin-left: 70px;}
+.conference{
+    position: absolute;
+    top: 180px;
+    right: 0px;
+}
+.catering{
+    position: absolute;
+    top: 400px ;
+    right: 0px;
+}
+
 
