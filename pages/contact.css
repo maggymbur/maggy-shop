@@ -95,3 +95,7 @@ nav a:hover{color: peru;}
 }
 h1{color: blue;}
 h2{color: gray;}
+a{
+    margin-left: 100px;
+    margin-right: 50px;
+}
