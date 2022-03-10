@@ -60,3 +60,13 @@ nav a{
 
 }
 nav a:hover{color: peru;}
+.logo3{
+    position: absolute;
+    right: 50px;
+    top: 100px;
+}
+.logo4{
+    position: absolute;
+    right: 50px ;
+    top: 500px;
+}
